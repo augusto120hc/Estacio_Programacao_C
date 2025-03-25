@@ -3,6 +3,7 @@
 
 int main() {
     //Cidade 01 e Cidade02
+    // iniciar as variáveis e tipo    
     char estadoC1, estadoC2;
     char codigoC1[10], codigoC2[10];
     char cidade01[20], cidade02[20];
@@ -13,14 +14,14 @@ int main() {
 
 
     //Cidade 01
-    printf("Insira dados da carta 01 \n ");
-    printf("Digite a letra de um Estado A a Z: \n");
+    // obter as informações de cada carta em variáveis
+    printf("Insira dados da carta 01 \n "); 
+    printf("Digite a letra de um Estado A a Z: \n"); 
     scanf(" %c", &estadoC1);
 
-    printf("Digite o codigo da carta: \n");
+    printf("Digite o codigo da carta: \n"); 
     scanf(" %s", codigoC1);
 
-    printf("Digite o nome do Estado: \n");
     scanf(" %s", cidade01);
 
     printf("Qual a população: \n");
@@ -59,6 +60,7 @@ int main() {
     scanf(" %d", &pontosTuristicosC2);
 
     //Carta 01
+    // exibir infomações 
     printf("\n CARTA 01 \n");
     printf("A letra do Estado é %c \n", estadoC1);
     printf("O código da carta é: %s \n", codigoC1);
